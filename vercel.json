@@ -14,7 +14,7 @@
     "env": {
         "APP_NAME": "Laravel Vercel",
         "APP_ENV": "production",
-        "APP_DEBUG": "false",
+        "APP_DEBUG": "true",
         "APP_KEY": "base64:Eq/CUTzwSUvVnkaAmcuH2/GgKZhQI/cho14toZFmvYI=",
         "APP_URL": "https://laravel-vercel.vercel.app",
         "DB_CONNECTION": "sqlite",
