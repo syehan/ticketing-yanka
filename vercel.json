@@ -1,7 +1,7 @@
 {
     "version": 2,
     "builds": [
-        { "src": "/api/index.php", "use": "vercel-php@0.6.0" },
+        { "src": "/vercel/index.php", "use": "vercel-php@0.6.0" },
         { "src": "/public/**", "use": "@vercel/static" }
     ],
     "routes": [
@@ -9,7 +9,7 @@
             "src": "/(css|js|vendor|assets|build|public)/(.*)",
             "dest": "public/$1/$2"
         },
-        { "src": "/(.*)", "dest": "/api/index.php" }
+        { "src": "/(.*)", "dest": "/vercel/index.php" }
     ],
     "env": {
         "APP_NAME": "Laravel Vercel",
